@@ -9,7 +9,7 @@ import { FeedbackProvider } from "./context/FeedbackContext"
 
 function App() {
   return (
-    <FeedbackProvider>>
+    <FeedbackProvider>
       <Router>
         <Header />
         <div className="container">
